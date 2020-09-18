@@ -1,0 +1,40 @@
+{
+  "name": "@sbesson/test-helpers",
+  "version": "1.0.3",
+  "description": "Librairie d'aide pour les tests",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Serge BESSON <serge@famille-besson.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergebesson/test-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergebesson/test-helpers/issues"
+  },
+  "homepage": "https://github.com/sergebesson/test-helpers#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
