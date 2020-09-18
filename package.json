@@ -1,6 +1,6 @@
 {
   "name": "@sbesson/test-helpers",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Librairie d'aide pour les tests",
   "main": "index.js",
   "scripts": {
